@@ -436,8 +436,8 @@ Function DumpUser(ByVal dn)
   If (InStr(SipID, "sip:") <> 0) Then
     SipID = Right(SipID, Len(SipID) - 4)
     
-    ' is the user using Personal Communicator or Office Communicator?
-    ' thanks to Sam Frost <sam_frost@uhc.com>
+    ' Is the user using Personal Communicator or Office Communicator?
+    ' thanks to Sam Frost
     '
     OCUser = GetValue(user, "msRTCSIP-UserEnabled")
     
